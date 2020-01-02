@@ -1,0 +1,140 @@
+body{ 
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*------------------Header---------------------*/
+
+.header{
+    display: flex;
+    height: 50px;
+    margin-top: 19px;
+}
+
+#google{
+    width: 92px;
+    height: 30px;
+    margin: auto 20px;
+}
+.header input{
+    width: 640px;
+    height: 46px;
+    border-radius: 50px;
+    border: solid 1px rgb(231, 231, 231);
+}
+
+#burger{
+    width: 24px;
+    height: 24px;
+    margin: auto;
+    margin-right: 10px;
+    
+}
+
+/*----------------------NAV----------------------*/
+
+.navbar{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    border-bottom:  rgb(231, 231, 231) solid 1px;
+}
+
+.navbar ul{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 20px;
+  
+}
+
+.navbar a{
+    text-decoration: none;
+    list-style-type: none;
+    padding-right: 20px;
+    color: #5f6368;
+}
+
+.right{margin-left: 200px;}
+
+/*----------------------Main Text-----------------------*/
+
+main{
+    margin-left: 140px;
+}
+.display{
+    font-size: 14px;
+    font-weight: 400;
+    color: #70757a;
+}
+h2{
+    color: #1a0dab;
+    font-weight: 400;
+    margin: 0px;
+    margin-bottom: 5px;
+}
+
+main #wix{
+    color: #006621;
+    font-size: 16px;
+   
+}
+p{
+    width: 55%;
+}
+
+main .text a{
+    color: #1a0dab;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.text{
+   
+    margin-left: 30px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+/*-------------Second Link-------------*/
+
+.links ul{
+    display: flex;
+    list-style-type: none;
+    ;
+}
+.links li a{
+    text-decoration: none;
+    padding: 4px;
+    color: #1a0dab;
+}
+
+.title{
+    font-size: 20px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    padding-left: 15px;
+    padding-top: 10px;
+    color: #222222;
+}
+
+.bottom-table{
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+h5{
+    width: 500px;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 5px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin: 0px;
+    border: solid 1px rgb(235, 235, 235);
+    padding-left: 15px;
+    color: #222222;
+    
+
+ 
+}
