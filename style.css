@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.navleft {
+    display: block;
+    float: left;
+}
+
+.navleft a{
+    display: inline-block;
+    text-decoration: none;
+    list-style-type: none;
+    color: rgb(65, 65, 65);
+    margin: 7px 20px 0px 0px;
+
+}
+
+.navleft a:hover{
+    text-decoration: underline;
+}
+
+.navright{
+    display: block;
+    float: right;
+}
+
+.navright a{
+    display: inline-block;
+    text-decoration: none;
+    list-style-type: none;
+    color: rgb(65, 65, 65);
+    margin: 7px 20px 0px 0px;
+
+}
+
+.navright a:hover{
+    text-decoration: underline;
+}
+
+.navright button{
+    float: right;
+    margin-right: 10px;
+    background: #4387fd;
+    border-radius: 4px;
+    color: white;
+    width: 70px;
+    height: 30px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.googlelogo{
+    display: flex;
+    justify-content: center;
+    padding: 150px 0px 20px 90px;
+    
+}
+
+.form{
+display: block;
+text-align: center;
+}
+
+.form input{
+    width: 420px;
+    height: 40px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    border: solid 1px rgb(180, 180, 180);
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;    
+}
+
+.search button{
+    margin: 10px;
+    width: 120px;
+    height: 30px;
+    background-color: rgb(241, 241, 241);
+    border: solid 1px rgb(241, 241, 241);
+    font-size: 12px;
+    color: rgb(85, 85, 85);
+}
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    background-color: rgb(226, 226, 226);
+    width: 100%;
+    border: 1px solid rgb(207, 207, 207);
+}
+
+footer a{
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    color: rgb(112, 112, 112);
+    padding: 0 19px 0 0;
+    font-size: 13px;
+}
+
+footer :hover{
+    text-decoration: underline;
+}
+
+.footer-right{
+    float: right;
+    margin-right: 10px;
+}
