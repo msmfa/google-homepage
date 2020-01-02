@@ -1,6 +1,9 @@
 body{ 
     font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    
 }
 
 /*------------------Header---------------------*/
@@ -20,8 +23,14 @@ body{
     width: 640px;
     height: 46px;
     border-radius: 50px;
-    border: solid 1px rgb(231, 231, 231);
+    border: solid 1px rgb(226, 226, 226);
 }
+
+.header input:hover{
+    color: rgb(155, 155, 155);
+    box-shadow: 0px 0px 2px 0px;
+}
+
 
 #burger{
     width: 24px;
@@ -37,12 +46,17 @@ body{
     display: flex;
     background-color: rgb(255, 255, 255);
     border-bottom:  rgb(231, 231, 231) solid 1px;
+    height: 46px;
+    padding: 0px;
+    margin: 0px;
 }
 
 .navbar ul{
     display: flex;
     margin-left: 100px;
-    margin-top: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
   
 }
 
@@ -50,7 +64,20 @@ body{
     text-decoration: none;
     list-style-type: none;
     padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 15px;
     color: #5f6368;
+}
+
+.navbar a:hover{
+    color: #1A73E8;
+}
+
+.navbar #all {
+    padding-bottom: 15px;
+    border-bottom: #1A73E8 solid 2px;
+    color: #1A73E8;
+
 }
 
 .right{margin-left: 200px;}
@@ -60,6 +87,7 @@ body{
 main{
     margin-left: 140px;
 }
+
 .display{
     font-size: 14px;
     font-weight: 400;
@@ -134,7 +162,66 @@ h5{
     border: solid 1px rgb(235, 235, 235);
     padding-left: 15px;
     color: #222222;
-    
+}
 
- 
+/* -----------------------Footer---------------------------*/
+
+.footer-bottom {
+    background-color: rgb(235, 235, 235);
+    margin-bottom: 0px;
+    
+}
+.footer-bottom ul{
+    display: flex;
+    padding-left: 150px;
+    margin-bottom: 0px;
+    height: 50px;
+    border-top: solid 1px rgb(214, 214, 214);
+    margin-top: 0px;
+    
+}
+
+.footer-bottom li{
+    list-style-type: none;
+    margin: auto 0;
+}
+
+.footer-bottom a{
+    text-decoration: none;
+    margin-right: 13px;
+    color: rgb(107, 107, 107);
+    font-size: 14px;
+    
+}
+.geo{
+    display: flex;
+    padding-left: 150px;
+    margin-bottom: 0px;
+    height: 50px;
+    border-top: solid 1px rgb(214, 214, 214);
+    margin-top: 35px;
+    background-color: rgb(235, 235, 235);
+    margin-bottom: 0px;
+}
+.geo .harrow{
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    padding-right: 5px;
+    color:black;
+}
+.geo .subtitle{
+    font-size: 14px;
+}
+
+.geo h2{
+    display: flex;
+    margin: auto 0;
+    color:rgb(107, 107, 107);
+    
+}
+.geo .test{
+    font-size: 14px;
+    font-weight: 400;
+    color: :rgb(107, 107, 107);
 }
