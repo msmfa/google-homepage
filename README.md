@@ -1,6 +1,6 @@
 # Google Home Page
 
-## Deployment
+## Screenshot
 ![](/IMG/google-home-proj-screenshot.png)
 
 ## Build Tools & Languages
