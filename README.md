@@ -1,4 +1,20 @@
-Project brief:
-Create the Google Homepage
+## Google Home Page
 
-From The Odin Project's [curriculum](http://www.theodinproject.com/courses/web-development-101/lessons/html-css)
+## Deployment
+---
+## Build Tools & Languages
+- HTML
+- CSS
+- Visual Studio Code
+- Git
+- Github
+
+## What did I learn? 
+- CSS Grid and CSS Flexbox
+- CSS Pseudo-Class Selectors  
+
+## Authors 
+Michael Sydney Moore 
+## License 
+---
+
