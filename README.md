@@ -1,7 +1,8 @@
 ## Google Home Page
 
 ## Deployment
----
+N/A
+
 ## Build Tools & Languages
 - HTML
 - CSS
@@ -15,6 +16,7 @@
 
 ## Authors 
 Michael Sydney Moore 
+
 ## License 
----
+N/A
 
